@@ -33,14 +33,14 @@ public class App {
     }
 
     if (sumOfNotes >= 85.0) {
-      System.out.println("Parabéns! Você alcançou "
-          + sumOfNotes +
-          "%! E temos o prazer de informar que você obteve aprovação!");
+      System.out.println("Parabéns! Você alcançou " +
+          sumOfNotes
+          + "%! E temos o prazer de informar que você obteve aprovação!");
     } else {
       System.out.println(
-          "Lamentamos informar que, com base na sua pontuação alcançada neste período, "
-          + sumOfNotes +
-          "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
+          "Lamentamos informar que, com base na sua pontuação alcançada neste período, " +
+              sumOfNotes
+              + "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
     }
   }
 }
